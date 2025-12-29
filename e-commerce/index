@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ma Boutique - Accueil</title>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+</head>
+
+<body>
+  <!-- HEADER / NAVBAR -->
+  <header class="header">
+    <div class="container nav-container">
+      <div class="logo">
+        <a href="#">MaBoutique<span>.</span></a>
+      </div>
+
+      <nav class="navbar">
+        <ul class="nav-links">
+          <li><a href="#" class="active">Accueil</a></li>
+          <li><a href="#shop">Boutique</a></li>
+          <li><a href="#about">À propos</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="nav-icons">
+          <button class="icon-btn" aria-label="Compte">👤</button>
+          <button class="icon-btn" aria-label="Panier">🛒</button>
+        </div>
+
+        <!-- Bouton hamburger pour mobile -->
+        <button class="burger" aria-label="Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <p class="hero-badge">Nouveau • Collection 2025</p>
+        <h1>Ton e-shop moderne, simple et stylé.</h1>
+        <p class="hero-subtitle">
+          Découvre une sélection de produits tendance, avec une expérience
+          d’achat fluide et responsive sur tous les écrans.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#shop" class="btn btn-primary">Voir la boutique</a>
+          <a href="#about" class="btn btn-outline">En savoir plus</a>
+        </div>
+      </div>
+
+      <div class="hero-image">
+        <div class="hero-placeholder">
+          <p>Image produit / bannière</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION PRODUITS -->
+  <section id="shop" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Nos produits</h2>
+        <p>Une sélection de produits imaginaires pour ton site démo.</p>
+      </div>
+
+      <div class="products-grid">
+        <!-- CARD 1 -->
+        <article class="product-card">
+          <div class="product-image">
+            <span class="product-tag">Nouveau</span>
+          </div>
+          <h3>T-shirt basic</h3>
+          <p class="product-description">
+            Un t-shirt confortable, parfait pour tous les jours.
+          </p>
+          <div class="product-bottom">
+            <span class="price">19,99 €</span>
+            <button class="btn btn-small">Ajouter au panier</button>
+          </div>
+        </article>
+
+        <!-- CARD 2 -->
+        <article class="product-card">
+          <div class="product-image"></div>
+          <h3>Sneakers urban</h3>
+          <p class="product-description">
+            Sneakers inspirées du style streetwear, pour un look casual.
+          </p>
+          <div class="product-bottom">
+            <span class="price">69,99 €</span>
+            <button class="btn btn-small">Ajouter au panier</button>
+          </div>
+        </article>
+
+        <!-- CARD 3 -->
+        <article class="product-card">
+          <div class="product-image"></div>
+          <h3>Sac à dos minimal</h3>
+          <p class="product-description">
+            Design minimaliste, pratique pour le quotidien.
+          </p>
+          <div class="product-bottom">
+            <span class="price">39,99 €</span>
+            <button class="btn btn-small">Ajouter au panier</button>
+          </div>
+        </article>
+
+        <!-- CARD 4 -->
+        <article class="product-card">
+          <div class="product-image"></div>
+          <h3>Casquette logo</h3>
+          <p class="product-description">
+            Casquette avec logo, idéale pour compléter ton outfit.
+          </p>
+          <div class="product-bottom">
+            <span class="price">24,99 €</span>
+            <button class="btn btn-small">Ajouter au panier</button>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION À PROPOS -->
+  <section id="about" class="section section-alt">
+    <div class="container about-grid">
+      <div>
+        <h2>À propos de la boutique</h2>
+        <p>
+          Ce site est un exemple de boutique en ligne, créé pour présenter
+          tes compétences en HTML &amp; CSS, et ton sens du design.
+        </p>
+        <p>
+          Tu peux utiliser cette structure comme base pour ton portfolio
+          ou pour un vrai projet e-commerce plus tard.
+        </p>
+      </div>
+
+      <div>
+        <ul class="about-list">
+          <li>✅ Site responsive (mobile, tablette, desktop)</li>
+          <li>✅ Mise en page moderne et simple</li>
+          <li>✅ Sections claires : hero, produits, à propos, contact</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION CONTACT -->
+  <section id="contact" class="section">
+    <div class="container contact-container">
+      <div>
+        <h2>Contact</h2>
+        <p>
+          Tu peux remplacer ce texte par tes vraies informations de
+          contact ou un formulaire.
+        </p>
+      </div>
+
+      <div class="contact-details">
+        <p>📩 email@exemple.com</p>
+        <p>📍 Paris, France</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2025 MaBoutique. Tous droits réservés.</p>
+      <p>Design &amp; code par toi ✨</p>
+    </div>
+  </footer>
+
+  <!-- Script menu mobile -->
+  <script>
+    const burger = document.querySelector(".burger");
+    const navLinks = document.querySelector(".nav-links");
+
+    burger.addEventListener("click", () => {
+      navLinks.classList.toggle("nav-open");
+      burger.classList.toggle("burger-open");
+    });
+  </script>
+</body>
+</html>
